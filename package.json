@@ -1,0 +1,30 @@
+{
+  "name": "project-complexity-analyzer",
+  "version": "0.0.1",
+  "description": "Simple algorithm complexity analyzer",
+  "main": "./dist/lib/algorithmAnalyzer.js",
+  "bin": {
+    "algo-analyzer": "./dist/index.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "dev": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edward93/project-complexity-analyzer.git"
+  },
+  "author": "Edward",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edward93/project-complexity-analyzer/issues"
+  },
+  "homepage": "https://github.com/edward93/project-complexity-analyzer#readme",
+  "dependencies": {
+    "@babel/parser": "^7.20.3",
+    "esm": "^3.2.25"
+  }
+}
